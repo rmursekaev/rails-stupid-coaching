@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="alert alert-primary" role="alert">
+    <%= @question %>
+    <p>- You</p>
+  </div>
+  <br>
+  <div class="alert alert-warning" role="alert">
+    <%= @answer %>
+    <p>- Coach</p>
+  </div>
+  <br>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
